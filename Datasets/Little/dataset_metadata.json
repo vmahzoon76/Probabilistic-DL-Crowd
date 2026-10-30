@@ -1,0 +1,29 @@
+{
+  "dataset": "Little",
+  "source": "Stanford Drone Dataset",
+  "source_video": "little/video3",
+  "dt_seconds": 0.4,
+  "downsample": "every 12th frame from 30 FPS",
+  "class_kept": "Pedestrian",
+  "position": "bounding box center in meters",
+  "split": "train_part_1 first 80 percent of frames, train_part_2 final 20 percent of frames",
+  "frame_range": [
+    0,
+    1172
+  ],
+  "train_end_frame": 937,
+  "num_observations": 7509,
+  "num_agents": 100,
+  "num_transformer_samples": 7409,
+  "num_train_samples": 5650,
+  "num_test_samples": 1759,
+  "num_lidar_samples": 7409,
+  "scale_m_per_px": 0.028638926,
+  "polygon_class_counts": {
+    "Building": 0,
+    "Obstacle": 0,
+    "Object": 0,
+    "Offroad": 8,
+    "Obstacle_alias_Object": 0
+  }
+}

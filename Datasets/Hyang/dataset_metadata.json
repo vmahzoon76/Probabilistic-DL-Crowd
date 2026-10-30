@@ -1,0 +1,29 @@
+{
+  "dataset": "Hyang",
+  "source": "Stanford Drone Dataset",
+  "source_video": "hyang/video4",
+  "dt_seconds": 0.4,
+  "downsample": "every 12th frame from 30 FPS",
+  "class_kept": "Pedestrian",
+  "position": "bounding box center in meters",
+  "split": "train_part_1 first 80 percent of frames, train_part_2 final 20 percent of frames",
+  "frame_range": [
+    0,
+    671
+  ],
+  "train_end_frame": 536,
+  "num_observations": 21874,
+  "num_agents": 239,
+  "num_transformer_samples": 21635,
+  "num_train_samples": 17628,
+  "num_test_samples": 4007,
+  "num_lidar_samples": 21635,
+  "scale_m_per_px": 0.034265612,
+  "polygon_class_counts": {
+    "Building": 0,
+    "Obstacle": 0,
+    "Object": 0,
+    "Offroad": 5,
+    "Obstacle_alias_Object": 0
+  }
+}
